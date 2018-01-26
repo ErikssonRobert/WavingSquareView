@@ -13,6 +13,7 @@
 		72C07F46201BD4B400D56F42 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72C07F45201BD4B400D56F42 /* Assets.xcassets */; };
 		72C07F49201BD4B400D56F42 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72C07F47201BD4B400D56F42 /* LaunchScreen.storyboard */; };
 		72C07F4C201BD4B400D56F42 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 72C07F4B201BD4B400D56F42 /* main.m */; };
+		72C07F54201BD4D900D56F42 /* WavingSquareView.m in Sources */ = {isa = PBXBuildFile; fileRef = 72C07F52201BD4D900D56F42 /* WavingSquareView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		72C07F48201BD4B400D56F42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		72C07F4A201BD4B400D56F42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		72C07F4B201BD4B400D56F42 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		72C07F52201BD4D900D56F42 /* WavingSquareView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WavingSquareView.m; path = ../../Labb2/HowMuchDoYouKnow/HowMuchDoYouKnow/WavingSquareView.m; sourceTree = "<group>"; };
+		72C07F53201BD4D900D56F42 /* WavingSquareView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WavingSquareView.h; path = ../../Labb2/HowMuchDoYouKnow/HowMuchDoYouKnow/WavingSquareView.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 		72C07F3B201BD4B400D56F42 /* WavingSquareView */ = {
 			isa = PBXGroup;
 			children = (
+				72C07F53201BD4D900D56F42 /* WavingSquareView.h */,
+				72C07F52201BD4D900D56F42 /* WavingSquareView.m */,
 				72C07F3C201BD4B400D56F42 /* AppDelegate.h */,
 				72C07F3D201BD4B400D56F42 /* AppDelegate.m */,
 				72C07F3F201BD4B400D56F42 /* ViewController.h */,
@@ -143,6 +148,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				72C07F41201BD4B400D56F42 /* ViewController.m in Sources */,
+				72C07F54201BD4D900D56F42 /* WavingSquareView.m in Sources */,
 				72C07F4C201BD4B400D56F42 /* main.m in Sources */,
 				72C07F3E201BD4B400D56F42 /* AppDelegate.m in Sources */,
 			);
